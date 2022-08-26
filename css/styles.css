@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blanco: #fff;
+  --azul-marino: #00d8d6;
+  --azul-claro: #34e7e4;
+  --azul-ball: #0fbcf9;
+}
+
+body {
+  font-family: "Silkscreen", cursive;
+  background-color: var(--azul-marino);
+  text-align: center;
+  /*! footer problema */
+  display: flex;
+  min-height: 100hv;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--blanco);
+}
+
+.cabecera {
+  background-color: var(--azul-claro);
+  padding: 10px;
+  height: 100%;
+}
+
+.cabecera a {
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+.cabecera-h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.navbar {
+  background-color: var(--azul-claro);
+  padding: 5px 15px;
+  height: 50px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.navbar .navbar-ul {
+  margin: 0;
+}
+
+.navbar .navbar-ul_item {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+.navbar .navbar-ul_item a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+.section-one {
+  background-color: var(--azul-ball);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.section-two {
+  background-color: var(--azul-ball);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.section-two .section-two_title {
+  color: var(--blanco);
+  margin: 0;
+  padding: 1px;
+}
+
+.section-two .section-two_ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.section-two .section-two_ul li {
+  padding: 5px;
+  display: inline-block;
+}
+
+.section-two #section-two_figure {
+  margin: 0;
+}
+
+.section-two #section-two_figure_p_img {
+  margin: 0;
+  text-align: center;
+}
+
+.section-two #section-two_figure img {
+  width: 15%;
+  height: 15%;
+  border-radius: 10px;
+}
+
+.p-aboutme {
+  color: var(--blanco);
+}
+
+.container {
+  margin: 0;
+}
+
+.container .p-aboutme {
+  margin: 0;
+  padding: 1px;
+}
+
+.container .container-img {
+  margin: 0;
+}
+
+.container .container-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container .container-img img {
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+}
+
+.container .container-title {
+  margin: 0;
+  text-align: center;
+}
+.container .p-img {
+  margin: 0;
+  color: var(--blanco);
+  text-align: center;
+}
+
+.container-img {
+  margin: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--azul-claro);
+  border-radius: 10px;
+  margin-top: auto;
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.footer .footer-p {
+  font-size: 59%;
+  margin: 0;
+  padding: 2px;
+  color: black;
+}
+
+/* ! ayuda */
+/* header,
+nav,
+main,
+section,
+footer,
+figure {
+  display: block;
+} */

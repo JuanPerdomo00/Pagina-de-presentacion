@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blanco: #fff;
+  --azul-marino: #00d8d6;
+  --azul-claro: #34e7e4;
+  --azul-ball: #0fbcf9;
+}
+
+body {
+  font-family: "Silkscreen", cursive;
+  background-color: var(--azul-marino);
+  text-align: center;
+  /*! footer problema */
+  display: flex;
+  min-height: 100hv;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--blanco);
+}
+
+.cabecera {
+  background-color: var(--azul-claro);
+  padding: 10px;
+  height: 100%;
+}
+
+.cabecera a {
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+.cabecera-h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.navbar {
+  background-color: var(--azul-claro);
+  padding: 5px 15px;
+  height: 50px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.navbar .navbar-ul {
+  margin: 0;
+}
+
+.navbar .navbar-ul_item {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+.navbar .navbar-ul_item a {
+  text-decoration: none;
+  color: var(--blanco);
+}
+
+.caja {
+  padding: 50px;
+  margin: 50px;
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0be881;
+  border-radius: 50px;
+}
+
+.caja .caja-p__obout {
+  margin: 0;
+}
+
+.caja .title-jakepy {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.caja a img {
+  width: 11%;
+  height: 8%;
+}
+
+.caja .about {
+  font-size: 19px;
+  text-align: center;
+}
+
+.caja .caja-ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: var(--azul-claro);
+  border-radius: 10px;
+  margin-top: auto;
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.footer .footer-p {
+  font-size: 59%;
+  margin: 0;
+  padding: 2px;
+  color: black;
+}
+
+/* @media (min-width: 768px) {
+  .caja {
+    padding: 50px;
+    margin-top: 40px;
+    width: 500px;
+    height: 700px;
+    background-image: radial-gradient(
+      circle at 50% 50%,
+      #96959d 0,
+      #919094 16.67%,
+      #8b8b8a 33.33%,
+      #828581 50%,
+      #788078 66.67%,
+      #6f7b72 83.33%,
+      #65776c 100%
+    );
+    border-radius: 20px;
+    overflow: hidden;
+  }
+} */

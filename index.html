@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Jake" />
+    <!--! favicon ico  -->
+    <link rel="shortcut icon" href="./ico/favicon.ico" type="image/x-icon" />
     <!--! css -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
     <!--! Fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,46 +19,104 @@
       href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="./ico/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <ul class="navbar">
-          <li class="navbar-item">
-            <a href="./html/contacto.html">Contacto</a>
-          </li>
-          <li class="navbar-item"><a href="./html/blog.html">Blog</a></li>
-          <li class="navbar-item">
-            <a href="./html/proyectos.html">proyectos</a>
-          </li>
-          <li class="navbar-item"><a href="./index.html">Sobre Mi</a></li>
-        </ul>
-      </nav>
+    <header class="cabecera">
+      <h2 class="cabecera-h2"><a href="./index.html">Jakepys</a></h2>
     </header>
-    <main>
-      <figure class="container">
-        <p class="container-img">
-          <img
-            src="./img/bender.jpg"
-            width="300px"
-            height="300px"
-            alt="MI foto de perfil"
-          />
-        </p>
-        <figcaption class="p-img"><p>I, Am</p></figcaption>
-        <h1 class="container-title">Jake Perdomo <i>Jakepys</i></h1>
-      </figure>
-      <ul>
-        <li>Html</li>
-        <li>Css</li>
-        <li>js</li>
-        <li>Python</li>
+    <nav class="navbar">
+      <ul class="navbar-ul">
+        <li class="navbar-ul_item">
+          <a class="nav_link" href="./contacto.html">Contacto</a>
+        </li>
+        <li class="navbar-ul_item">
+          <a class="nav_link" href="./index.html">Sobre Mi</a>
+        </li>
       </ul>
+    </nav>
+    <main>
+      <section class="section-one">
+        <figure class="container">
+          <p class="container-img">
+            <img
+              src="./img/bender.jpg"
+              width="300px"
+              height="300px"
+              alt="MI foto de perfil"
+            />
+          </p>
+          <p class="p-img">I, Am</p>
+          <h1 class="container-title">Jake Perdomo <i>Jakepys</i></h1>
+          <p class="p-aboutme">
+            Hello little person, my name is Juan Perdomo but they know me as
+            Jakepys. I am a full stack programming student passionate about new
+            technologies. I am currently studying at Henry's boot camp. I am
+            constantly learning so this is just a start.
+          </p>
+        </figure>
+      </section>
+      <!--! secion two  -->
+      <section class="section-two">
+        <h2 class="section-two_title">learning</h2>
+        <figure id="section-two_figure">
+          <p id="section-two_figure_p_img">
+            <img src="./img/this-is-fine.gif" alt="This is Fine :)" />
+          </p>
+        </figure>
+        <ul class="section-two_ul">
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=git"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=html"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=css"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=js"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=nodejs"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=md"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=linux"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://skillicons.dev" target="_blank"
+              ><img src="https://skillicons.dev/icons?i=python"
+            /></a>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
-      <p class="footer-copyright">Licencia MIT</p>
-      <p class="footer-copyright">
+      <p class="footer-p">Hecho con amor by 💙 Jakepys</p>
+      <p class="footer-p">
         Porque un momento será su ira, Pero su favor dura toda la vida. Por la
         noche durará el lloro, Y a la mañana vendrá la alegría. salmo 30:5
       </p>
